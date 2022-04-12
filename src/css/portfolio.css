@@ -1,0 +1,507 @@
+/* intro */
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 60px 0 20px 0;
+}
+
+.space h3,
+.overview h3 {
+  color: #222;
+  font-weight: 500;
+}
+
+.space p {
+ font-size: 14px;
+ line-height: 24px;
+}
+
+.title {
+  max-width: var(--width-medium);
+  margin: 0 auto;
+}
+
+.cover {
+  width: 100%;
+}
+
+.cover img {
+  width: 100%;
+  background-size: cover;
+}
+
+.intro {
+  max-width: var(--width-medium);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro .box1 {
+  width: 50%;
+}
+
+.intro .box1 .overview:first-child {
+  padding-bottom: 20px;
+}
+
+.intro .box2 {
+  width: 40%;
+}
+
+.intro .box2 .detail {
+  display: inline-block;
+}
+
+.intro .box2 .detail:first-child {
+  padding-right: 20px;
+}
+
+.intro .box {
+  padding-bottom: 100px;
+}
+
+.intro .box .space {
+  padding-bottom: 12px;
+}
+
+.intro .box .space:last-child {
+  padding-bottom: 0;
+}
+
+/* research */
+.color {
+  background: #BEC8F9;
+  padding: 60px 0 80px 0;
+}
+
+.color h2,
+.audit h2,
+.takeaways h2 {
+  padding: 20px 0 10px 0;
+}
+
+.color p {
+  font-size: 18px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.color .title {
+  padding-bottom: 28px;
+}
+
+.purple {
+  color: #9f9ff9;
+  font-size: 18px;
+  display: inline;
+}
+
+/* persona */
+.highlight {
+  display: inline;
+  box-shadow: inset 0 -10px 0 #ffdf65;
+}
+
+.bubble {
+  overflow: hidden;
+}
+
+.speech-bubble {
+  margin-bottom: 40px;
+}
+
+.speech-bubbly {
+  float: right;
+}
+
+.speech-bubble,
+.speech-bubbly {
+	position: relative;
+	background: #fff;
+	border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  padding: 28px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 26px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -316px;
+	margin-bottom: -26px;
+}
+
+.speech-bubbly:after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 26px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: 290px;
+	margin-bottom: -26px;
+}
+
+.speech-bubble img {
+  width: 172px;
+  margin-right: 20px;
+}
+
+.speech-bubbly img {
+  width: 172px;
+  margin-left: 20px;
+}
+
+.speech-bubble h3,
+.speech-bubbly h3 {
+  font-size: 20px;
+}
+
+.speech-bubble .needs,
+.speech-bubbly .needs {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+/* pain points */
+.research {
+ padding-bottom: 100px;
+ border-bottom: 3px solid #BEC8F9;
+}
+
+.goals {
+  border: none;
+}
+
+.research .pain {
+  width: 64%;
+  padding-top: 60px;
+}
+
+.research h2 {
+  width: 36%;
+}
+
+.points {
+  padding-bottom: 16px;
+}
+
+.points h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
+
+.points p {
+  font-size: 16px;
+}
+
+/* journey map */
+.journey {
+  padding-bottom: 100px;
+}
+
+.journey img {
+ width: 100%;
+}
+
+.journey p {
+  padding-bottom: 30px;
+}
+
+/* competitive audit */
+.audit {
+  padding: 60px 0 100px 0;
+}
+
+.audit h2 {
+  padding-bottom: 40px;
+}
+
+.audit .brands h2 {
+  padding: 0;
+}
+
+.audit .brands h3 {
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+.audit .brands h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.audit .brands p {
+  font-size: 14px;
+}
+
+.audit .brand1 img {
+  width: 160px;
+}
+
+.audit .brand2 img {
+  width: 146px;
+  padding-top: 16px;
+}
+
+.audit .brand3 img {
+  width: 146px;
+  margin-top: 16px;
+  border-radius: 12px;
+}
+
+.swot {
+  width: 25%;
+}
+
+.swot-box h3 {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.swot img {
+  width: 40px;
+  margin-top: 24px;
+}
+
+.swot .line {
+  width: 100%;
+  height: 2px;
+  background-color: #9f9ff9;
+  margin-top: 20px;
+}
+
+.swot .smarter img {
+ border-radius: 4px;
+}
+
+.swot .gap p {
+  padding-bottom: 16px;
+}
+
+/* storyboard */
+.sketch {
+  padding: 20px 0 80px 0;
+  background-color: #fff;
+  /* filter: brightness(93%); */
+}
+
+.sketch h2 {
+  text-align: center;
+}
+
+.sketch h3 {
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 3.4%;
+}
+
+.sketch p {
+  color: #222;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sketch img {
+  width: 100%;
+  background-size: cover;
+}
+
+/* design */
+.sitemap {
+  background: #92A3FD;
+  padding: 60px 0 80px 0;
+  color: #fff;
+}
+
+.sitemap h2 {
+  font-weight: 500;
+}
+
+.sitemap h3 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.sitemap img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.wireframe {
+ padding-bottom: 80px;
+}
+
+.wireframe h2 {
+  padding-bottom: 0;
+}
+
+.wireframe h3 {
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.wireframe .paper {
+  justify-content: flex-start; 
+  padding-bottom: 80px; 
+  border-bottom: 3px solid #BEC8F9;
+}
+
+.wireframe .intro img {
+  width: 46%;
+  background-size: cover;
+}
+
+.wireframe .intro p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.wireframe .digital img {
+  width: 100%;
+  background-size: cover;
+}
+
+.wireframe .digital p {
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+
+.lofi .box {
+  width: 44%;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+.lofi img {
+  width: 50%;
+}
+
+.lofi .fidelity h2 {
+  padding: 10px 0 32px 0;
+}
+
+.lofi .link {
+  color: #2883F3;
+  text-decoration: underline;
+}
+
+/* usability study */
+.study {
+  padding-top: 32px;
+}
+
+.study h2 {
+  padding-bottom: 16px;
+}
+
+.study p {
+  padding-bottom: 30px;
+}
+
+.study .round {
+  width: 45%;
+  padding: 36px 32px;
+  border-radius: 28px;
+  background-color: #fff;
+}
+
+.round h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.round ul {
+  padding-top: 12px;
+}
+
+.round ul li {
+  padding-bottom: 12px;
+}
+
+.round ul li span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* mockups */
+.mockups img {
+ width: 45%;
+ margin-right: 48px;
+}
+
+.mockups p {
+  font-size: 18px;
+  padding-top: 20px
+}
+
+.mockups .intro h3 {
+  font-size: 22px;
+}
+
+.key img{
+  width: 100%;
+  background-size: cover;
+}
+
+/* high-fidelity */
+.highfi {
+  padding: 60px 0 80px 0;
+  border-bottom: 3px solid #BEC8F9;
+}
+
+.highfi p {
+  font-size: 18px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.takeaways p {
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+
+/* 🥰 */
+.end {
+  text-align: center;
+  padding: 36px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 24px;
+}
+
+.greet {
+  font-size: 28px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+/* subway mockup */
+.subway {
+  position: relative;
+  padding: 60px 0 80px 0;
+}
+.subway img {
+  width: 100%;
+  background-size: cover;
+}
